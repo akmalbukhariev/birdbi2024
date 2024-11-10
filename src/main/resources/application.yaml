@@ -17,3 +17,22 @@ spring:
   messages:
     basename: i18n/exception
     encoding: UTF-8
+
+### mybatis setting ###
+mybatis:
+  mapper-locations: classpath:/mapper/**/*.xml
+  config-location: classpath:/config/mapper-config.xml
+
+jwt:
+  secret: ZbsAL3MYe1Z3cf3WZ9z17ygqUprKDyK6qoN3QZJahQNwbQy9AdZvkNZjDiMe2KF1FPuWLPguqm4rsgJu
+
+server:
+  port: 8080
+
+jasypt:
+  encryptor:
+    bean: jasyptStringEncryptor
+    password: 2b8eb8c4908f7f7c7b7432c23b6709609995507dbf8a61b18cea6b25545c7de2
+
+aes:
+  key: ENC(dfSIMAu+/xXUaemmfRfs/U7CIDO88OItR0mr0xffNrTpcIei2Q0NK7Ra3iOuPnet)

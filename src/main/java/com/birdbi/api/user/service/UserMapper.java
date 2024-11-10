@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface UserMapper {
-    CamelCaseMap selectUser(String phone) throws Exception;
+    public CamelCaseMap selectUser(String phone_number) throws Exception;
 
     int insertUser(UserInfoDto dto) throws Exception;
 }

@@ -6,6 +6,7 @@ import java.nio.file.Paths;
 public class Constant {
     public static final String api_version = "1.0.0";
     public static final String web_version = "1.0.0";
+    public static final String basePackage = "com.birdbi.api";
     public static final String HEADER_AUTH = "Authorization";
     public static final String HEADER_BEARER = "Bearer";
     public static final String HEADER_ACCESS_TOKEN = "access-token";
