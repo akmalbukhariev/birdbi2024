@@ -1,0 +1,19 @@
+### DB setting ###
+spring:
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/birdbi
+    username: root
+    password: birdbi
+
+  profiles:
+    active: default
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  ### Spring Data JPA ###
+  #spring.jpa.hibernate.ddl-auto=update
+  #spring.jpa.properties.hibernate.format_sql=true
+  #spring.jpa.show-sql=true
+  messages:
+    basename: i18n/exception
+    encoding: UTF-8
